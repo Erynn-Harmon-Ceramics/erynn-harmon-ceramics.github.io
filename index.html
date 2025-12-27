@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alex – Ceramics Portfolio</title>
+  <title>Erynn Harmon – Ceramics Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header>
-    <h1>Alex Harmon</h1>
+    <h1>Erynn Harmon</h1>
     <p>Ceramic Artist</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
     <a href="#work">Work</a>
+    <a href="#awards-and-shows">Awards and Shows</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -31,28 +32,36 @@
     <section id="work">
       <h2>Selected Work</h2>
 
-      <div class="gallery">
-        <figure>
-          <img src="images/Plates.png" alt="Ceramic bowl" />
-          <figcaption>Stoneware Bowl, 2024</figcaption>
-        </figure>
+      <div class="carousel" id="carousel">
+        <div class="carousel-track">
+          <figure class="slide">
+            <img src="images/Plates.png" alt="Ceramic bowl" />
+            <figcaption>Stoneware Bowl, 2024</figcaption>
+          </figure>
 
-        <figure>
-          <img src="images/Devils Work.png" alt="Ceramic vase" />
-          <figcaption>Thrown Vase, 2024</figcaption>
-        </figure>
+          <figure class="slide">
+            <img src="images/Devils Work.png" alt="Ceramic vase" />
+            <figcaption>Thrown Vase, 2024</figcaption>
+          </figure>
 
-        <figure>
-          <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
-          <figcaption>Sculptural Form, 2023</figcaption>
-        </figure>
+          <figure class="slide">
+            <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
+            <figcaption>Sculptural Form, 2023</figcaption>
+          </figure>
+        </div>
       </div>
+    </section>
+
+    <section id="awards-and-shows">
+      <h2>Awards and Shows</h2>
+      <p>NCECA 2018: 1st Place</p>
+      <p>Random art gallery</p>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:alex@example.com">alex@example.com</a></p>
-      <p>Instagram: <a href="#">@yourhandle</a></p>
+      <p>Email: <a href="mailto:ceramicsbyerynn@gmail.com">ceramicsbyerynn@gmail.com</a></p>
+      <p>Instagram: <a href="#">@ceramicsbyerynn</a></p>
     </section>
   </main>
 
@@ -60,5 +69,6 @@
     <p>© 2025 Alex Harmon</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
