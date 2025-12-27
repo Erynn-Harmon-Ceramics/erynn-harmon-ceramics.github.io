@@ -1,1 +1,1 @@
-# erynnharmon.github.io
+# erynn-harmon-ceramics.github.io
