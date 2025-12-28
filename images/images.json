@@ -1,14 +1,62 @@
 [
-  "Basket bowl.avif",
-  "Blue flower earrings.jpg",
-  "Blueberry bowl.jpg",
-  "Blueberry pot.avif",
-  "Citrus cups.jpg",
-  "Colander set.jpg",
-  "Fruit stamp magnets.avif",
-  "Holiday mug set.jpg",
-  "Jewelry holder.jpg",
-  "Orange bubble lidded pot.jpg",
-  "Purple flower lidded pot.jpg",
-  "Red flower bowl.jpg"
+  {
+    "file": "Basket bowl.avif",
+    "caption": "Basket Bowl",
+    "alt": "Basket bowl"
+  },
+  {
+    "file": "Blue flower earrings.jpg",
+    "caption": "Blue Flower Earrings",
+    "alt": "Blue flower earrings"
+  },
+  {
+    "file": "Blueberry bowl.jpg",
+    "caption": "Blueberry Bowl",
+    "alt": "Blueberry bowl"
+  },
+  {
+    "file": "Blueberry pot.avif",
+    "caption": "Blueberry Pot",
+    "alt": "Blueberry pot"
+  },
+  {
+    "file": "Citrus cups.jpg",
+    "caption": "Citrus Cups",
+    "alt": "Citrus cups"
+  },
+  {
+    "file": "Colander set.jpg",
+    "caption": "Colander Set",
+    "alt": "Colander set"
+  },
+  {
+    "file": "Fruit stamp magnets.avif",
+    "caption": "Fruit Stamp Magnets",
+    "alt": "Fruit stamp magnets"
+  },
+  {
+    "file": "Holiday mug set.jpg",
+    "caption": "Holiday Mug Set",
+    "alt": "Holiday mug set"
+  },
+  {
+    "file": "Jewelry holder.jpg",
+    "caption": "Jewelry Holder",
+    "alt": "Jewelry holder"
+  },
+  {
+    "file": "Orange bubble lidded pot.jpg",
+    "caption": "Orange Bubble Lidded Pot",
+    "alt": "Orange bubble lidded pot"
+  },
+  {
+    "file": "Purple flower lidded pot.jpg",
+    "caption": "Purple Flower Lidded Pot",
+    "alt": "Purple flower lidded pot"
+  },
+  {
+    "file": "Red flower bowl.jpg",
+    "caption": "Red Flower Bowl",
+    "alt": "Red flower bowl"
+  }
 ]
