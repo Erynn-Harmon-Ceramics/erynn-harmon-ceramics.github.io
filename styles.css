@@ -95,6 +95,43 @@ figcaption {
   opacity: 1;
 }
 
+/* PORTFOLIO GRID */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portfolio-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio-grid img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.portfolio-grid img:hover {
+  transform: scale(1.02);
+}
+
 /* Footer */
 footer {
   text-align: center;
