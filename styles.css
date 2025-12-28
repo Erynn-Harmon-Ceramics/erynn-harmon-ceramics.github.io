@@ -48,15 +48,15 @@ h2 {
 
 /* Swiper Styles */
 .mySwiper {
-  padding: 2rem 0;      /* vertical padding */
-  margin: 0 auto;       /* center container horizontally */
+  padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .swiper-slide {
-  width: 300px;          /* width of center slide */
+  width: 300px;
   text-align: center;
   transition: opacity 0.3s ease;
-  margin: 0 auto;        /* fixes slight off-center issue */
+  margin: 0 auto;
 }
 
 .swiper-slide img {

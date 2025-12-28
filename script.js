@@ -1,10 +1,10 @@
 const swiper = new Swiper(".mySwiper", {
-  loop: true,                // Infinite loop
-  centeredSlides: true,      // Center the main slide
-  slidesPerView: 'auto',     // Let slides define their own width
-  spaceBetween: 20,          // Gap between slides
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  spaceBetween: 20,
   speed: 1000,
-  roundLengths: true,        // Fixes sub-pixel jumps
+  roundLengths: true,
 
   autoplay: {
     delay: 5000,
@@ -22,10 +22,5 @@ const swiper = new Swiper(".mySwiper", {
 /* Pause on hover */
 const swiperEl = document.querySelector(".mySwiper");
 
-swiperEl.addEventListener("mouseenter", () => {
-  swiper.autoplay.stop();
-});
-
-swiperEl.addEventListener("mouseleave", () => {
-  swiper.autoplay.start();
-});
+swiperEl.addEventListener("mouseenter", () => swiper.autoplay.stop());
+swiperEl.addEventListener("mouseleave", () => swiper.autoplay.start());

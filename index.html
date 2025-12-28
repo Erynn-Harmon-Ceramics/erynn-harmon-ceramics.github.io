@@ -5,12 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Erynn Harmon – Ceramics Portfolio</title>
 
-  <!-- Swiper CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-
+  <!-- Swiper CSS (local) -->
+  <link rel="stylesheet" href="swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -40,41 +36,42 @@
       <h2>Selected Work</h2>
 
       <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
+        <div class="swiper-wrapper">
 
-        <!-- ORIGINAL -->
-        <figure class="swiper-slide">
-          <img src="images/Plates.png" alt="Ceramic bowl" />
-          <figcaption>Stoneware Bowl, 2024</figcaption>
-        </figure>
-        <figure class="swiper-slide">
-          <img src="images/Devils Work.png" alt="Ceramic vase" />
-          <figcaption>Thrown Vase, 2024</figcaption>
-        </figure>
-        <figure class="swiper-slide">
-          <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
-          <figcaption>Sculptural Form, 2023</figcaption>
-        </figure>
+          <!-- Original slides -->
+          <figure class="swiper-slide">
+            <img src="images/Plates.png" alt="Ceramic bowl" />
+            <figcaption>Stoneware Bowl, 2024</figcaption>
+          </figure>
+          <figure class="swiper-slide">
+            <img src="images/Devils Work.png" alt="Ceramic vase" />
+            <figcaption>Thrown Vase, 2024</figcaption>
+          </figure>
+          <figure class="swiper-slide">
+            <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
+            <figcaption>Sculptural Form, 2023</figcaption>
+          </figure>
 
-        <!-- DUPES TO ENABLE SMOOTH LOOP -->
-        <figure class="swiper-slide">
-          <img src="images/Plates.png" alt="Ceramic bowl" />
-          <figcaption>Stoneware Bowl, 2024</figcaption>
-        </figure>
-        <figure class="swiper-slide">
-          <img src="images/Devils Work.png" alt="Ceramic vase" />
-          <figcaption>Thrown Vase, 2024</figcaption>
-        </figure>
-        <figure class="swiper-slide">
-          <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
-          <figcaption>Sculptural Form, 2023</figcaption>
-        </figure>
+          <!-- Duplicated slides for looping -->
+          <figure class="swiper-slide">
+            <img src="images/Plates.png" alt="Ceramic bowl" />
+            <figcaption>Stoneware Bowl, 2024</figcaption>
+          </figure>
+          <figure class="swiper-slide">
+            <img src="images/Devils Work.png" alt="Ceramic vase" />
+            <figcaption>Thrown Vase, 2024</figcaption>
+          </figure>
+          <figure class="swiper-slide">
+            <img src="images/Citrus Cups.png" alt="Ceramic sculpture" />
+            <figcaption>Sculptural Form, 2023</figcaption>
+          </figure>
 
+        </div>
+
+        <!-- Navigation arrows -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    </div>
-
     </section>
 
     <section id="awards-and-shows">
@@ -100,8 +97,8 @@
     <p>© 2025 Alex Harmon</p>
   </footer>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Swiper JS (local) -->
+  <script src="swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
