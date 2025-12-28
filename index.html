@@ -16,7 +16,6 @@
     <p>Ceramic Artist</p>
   </header>
 
-  <!-- STICKY NAV -->
   <nav>
     <a href="#bio">Bio</a>
     <a href="#awards-and-exhibitions">Awards and Exhibitions</a>
@@ -38,7 +37,10 @@
       <h2>Quick Look</h2>
 
       <div class="swiper mySwiper">
-        <div class="swiper-wrapper" id="swiper-wrapper"></div>
+        <div class="swiper-wrapper" id="swiper-wrapper">
+          <!-- Slides injected dynamically -->
+        </div>
+
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
@@ -50,7 +52,7 @@
         <li>
           <strong>
             <a href="https://www.k12clay.org/k12-ceramic-exhibition/exhibition-detail-piece-view.asp?event=16&workID=7262&sort=">
-              21st Annual National K12 Ceramic Exhibition
+              21st Annual National K12 Ceramic Exhibition:
             </a>
           </strong>
           Participation
@@ -59,7 +61,7 @@
         <li>
           <strong>
             <a href="https://www.k12clay.org/k12-ceramic-exhibition/exhibition-detail-piece-view.asp?event=17&workID=8941&sort=">
-              22nd Annual National K12 Ceramic Exhibition
+              22nd Annual National K12 Ceramic Exhibition:
             </a>
           </strong>
           <ul class="scholarships-list">
@@ -70,11 +72,13 @@
         </li>
 
         <li>
-          <strong>Southwest Regional Sterling Scholar:</strong> Runner Up in Visual Arts
+          <strong>Southwest Regional Sterling Scholar:</strong>
+          Runner Up in Visual Arts
         </li>
 
         <li>
-          <strong>Sterling Scholar Recipient:</strong> Visual Arts, Pine View High
+          <strong>Sterling Scholar Recipient:</strong>
+          Visual Arts, Pine View High
         </li>
       </ul>
     </section>
@@ -87,7 +91,9 @@
 
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <div class="portfolio-grid" id="portfolio-grid"></div>
+      <div class="portfolio-grid" id="portfolio-grid">
+        <!-- Grid items injected dynamically -->
+      </div>
     </section>
   </main>
 
@@ -95,6 +101,7 @@
     <p>© 2025 Alex Harmon</p>
   </footer>
 
+  <!-- Scripts -->
   <script src="dependencies/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
