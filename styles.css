@@ -17,12 +17,6 @@ header {
   background: #eee;
 }
 
-/* NAV WRAPPER PREVENTS JUMP */
-#nav-wrapper {
-  height: auto;
-}
-
-/* NAV BAR */
 nav {
   display: flex;
   justify-content: center;
@@ -30,26 +24,8 @@ nav {
   padding: 1rem;
   background: #fff;
   border-bottom: 1px solid #ddd;
-
-  position: relative;
-  transition: 
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
 }
 
-/* STICKY STATE */
-nav.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-
-  transform: translateY(0);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
-}
-
-/* NAV LINKS */
 nav a {
   text-decoration: none;
   color: #333;
@@ -79,7 +55,7 @@ h2 {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* FORCE 4 WIDE */
   gap: 1.5rem;
 }
 
@@ -108,31 +84,77 @@ h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
+.awards-list li strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+/* Scholarships sub-list (no cards) */
 .scholarships-list {
   list-style: disc;
   margin: 0.5rem 0 0 1.5rem;
+  padding: 0;
+  color: #555;
+}
+
+.scholarships-list li {
+  margin-bottom: 0.3rem;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* ============ */
-/* Swiper */
+/* Swiper Styles */
 /* ============ */
 
 .mySwiper {
   padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .swiper-slide {
   width: 300px;
   text-align: center;
   transition: opacity 0.3s ease;
+  margin: 0 auto;
 }
 
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Grey out non-active slides */
 .swiper-slide-prev,
 .swiper-slide-next {
   opacity: 0.5;
 }
 
 .swiper-slide-active {
+  opacity: 1;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Hide arrows until hover */
+.swiper-button-prev,
+.swiper-button-next {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.mySwiper:hover .swiper-button-prev,
+.mySwiper:hover .swiper-button-next {
   opacity: 1;
 }
 
@@ -156,6 +178,24 @@ h2 {
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.portfolio-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio-grid img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.portfolio-grid img:hover {
+  transform: scale(1.02);
 }
 
 /* Footer */
