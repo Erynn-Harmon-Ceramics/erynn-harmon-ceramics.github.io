@@ -20,6 +20,16 @@ fetch("images.json")
         <img src="images/${image.file}" alt="${image.alt}">
         <figcaption>${image.caption}</figcaption>
       `;
+
+      // Click to expand
+      gridItem.addEventListener("click", () => {
+        const currentlyExpanded = portfolioGrid.querySelector(".expanded");
+        if (currentlyExpanded && currentlyExpanded !== gridItem) {
+          currentlyExpanded.classList.remove("expanded");
+        }
+        gridItem.classList.toggle("expanded");
+      });
+
       portfolioGrid.appendChild(gridItem);
     });
 
