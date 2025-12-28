@@ -1,4 +1,4 @@
-fetch("images/images.json")
+fetch("images.json")
   .then(res => res.json())
   .then(images => {
     const swiperWrapper = document.getElementById("swiper-wrapper");
