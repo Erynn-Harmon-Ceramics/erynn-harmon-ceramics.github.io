@@ -1,26 +1,31 @@
-const track = document.querySelector(".carousel-track");
-const slides = document.querySelectorAll(".slide");
-const carousel = document.getElementById("carousel");
+const swiper = new Swiper(".mySwiper", {
+  loop: true,                // Infinite loop
+  centeredSlides: true,      // Center the main slide
+  slidesPerView: 'auto',     // Let slides define their own width
+  spaceBetween: 20,          // Gap between slides
+  speed: 1000,
+  roundLengths: true,        // Fixes sub-pixel jumps
 
-let index = 0;
-let intervalId;
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
 
-function showSlide(i) {
-  track.style.transform = `translateX(-${i * 100}%)`;
-}
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 
-function startCarousel() {
-  intervalId = setInterval(() => {
-    index = (index + 1) % slides.length;
-    showSlide(index);
-  }, 4000);
-}
+  simulateTouch: true,
+});
 
-function stopCarousel() {
-  clearInterval(intervalId);
-}
+/* Pause on hover */
+const swiperEl = document.querySelector(".mySwiper");
 
-carousel.addEventListener("mouseenter", stopCarousel);
-carousel.addEventListener("mouseleave", startCarousel);
+swiperEl.addEventListener("mouseenter", () => {
+  swiper.autoplay.stop();
+});
 
-startCarousel();
+swiperEl.addEventListener("mouseleave", () => {
+  swiper.autoplay.start();
+});
