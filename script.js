@@ -1,25 +1,3 @@
-/* ========================= */
-/* Sticky Navbar Logic */
-/* ========================= */
-
-const nav = document.getElementById("main-nav");
-const navWrapper = document.getElementById("nav-wrapper");
-const navOffset = nav.offsetTop;
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY >= navOffset) {
-    nav.classList.add("sticky");
-    navWrapper.style.height = `${nav.offsetHeight}px`;
-  } else {
-    nav.classList.remove("sticky");
-    navWrapper.style.height = "auto";
-  }
-});
-
-/* ========================= */
-/* Image Loading + Swiper */
-/* ========================= */
-
 fetch("images.json")
   .then(res => res.json())
   .then(images => {
@@ -43,7 +21,7 @@ fetch("images.json")
       portfolioGrid.appendChild(gridItem);
     });
 
-    const swiper = new Swiper(".mySwiper", {
+    new Swiper(".mySwiper", {
       loop: true,
       centeredSlides: true,
       slidesPerView: "auto",
@@ -58,9 +36,5 @@ fetch("images.json")
         prevEl: ".swiper-button-prev"
       }
     });
-
-    const swiperEl = document.querySelector(".mySwiper");
-    swiperEl.addEventListener("mouseenter", () => swiper.autoplay.stop());
-    swiperEl.addEventListener("mouseleave", () => swiper.autoplay.start());
   })
   .catch(err => console.error("Failed to load images:", err));

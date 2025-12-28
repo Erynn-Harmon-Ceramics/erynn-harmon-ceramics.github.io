@@ -17,39 +17,37 @@ header {
   background: #eee;
 }
 
-/* NAV WRAPPER PREVENTS JUMP */
-#nav-wrapper {
-  height: auto;
-}
+/* ================= */
+/* STICKY NAV (CSS) */
+/* ================= */
 
-/* NAV BAR */
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   display: flex;
   justify-content: center;
   gap: 2rem;
+
   padding: 1rem;
   background: #fff;
   border-bottom: 1px solid #ddd;
 
-  position: relative;
-  transition: 
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
-/* STICKY STATE */
-nav.sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+/* Shadow appears once stuck */
+nav::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 -1px 0;
+}
 
-  transform: translateY(0);
+nav.stuck {
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
-/* NAV LINKS */
 nav a {
   text-decoration: none;
   color: #333;
@@ -100,12 +98,6 @@ h2 {
   padding: 1rem 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.awards-list > li:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .scholarships-list {
@@ -124,16 +116,6 @@ h2 {
 .swiper-slide {
   width: 300px;
   text-align: center;
-  transition: opacity 0.3s ease;
-}
-
-.swiper-slide-prev,
-.swiper-slide-next {
-  opacity: 0.5;
-}
-
-.swiper-slide-active {
-  opacity: 1;
 }
 
 /* ================= */
