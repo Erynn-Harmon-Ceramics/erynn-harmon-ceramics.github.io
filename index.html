@@ -16,12 +16,15 @@
     <p>Ceramic Artist</p>
   </header>
 
-  <nav>
-    <a href="#bio">Bio</a>
-    <a href="#awards-and-exhibitions">Awards and Exhibitions</a>
-    <a href="#contact">Contact</a>
-    <a href="#portfolio">Portfolio</a>
-  </nav>
+  <!-- Wrapper prevents layout jump when nav becomes fixed -->
+  <div id="nav-wrapper">
+    <nav id="main-nav">
+      <a href="#bio">Bio</a>
+      <a href="#awards-and-exhibitions">Awards and Exhibitions</a>
+      <a href="#contact">Contact</a>
+      <a href="#portfolio">Portfolio</a>
+    </nav>
+  </div>
 
   <main>
     <section id="bio">
@@ -37,9 +40,7 @@
       <h2>Quick Look</h2>
 
       <div class="swiper mySwiper">
-        <div class="swiper-wrapper" id="swiper-wrapper">
-          <!-- Slides injected dynamically -->
-        </div>
+        <div class="swiper-wrapper" id="swiper-wrapper"></div>
 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -69,8 +70,6 @@
       </ul>
     </section>
 
-
-
     <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:erynnharmon@gmail.com">erynnharmon@gmail.com</a></p>
@@ -79,9 +78,7 @@
 
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <div class="portfolio-grid" id="portfolio-grid">
-        <!-- Grid items injected dynamically -->
-      </div>
+      <div class="portfolio-grid" id="portfolio-grid"></div>
     </section>
   </main>
 
