@@ -17,13 +17,19 @@ header {
   background: #eee;
 }
 
+/* ===== Sticky Navbar ===== */
 nav {
   display: flex;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.95); /* slightly transparent for smooth transition */
   border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(6px); /* smooth effect */
+  transition: all 0.3s ease; /* smooth transition */
 }
 
 nav a {
@@ -55,7 +61,7 @@ h2 {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr); /* FORCE 4 WIDE */
   gap: 1.5rem;
 }
 
@@ -90,11 +96,20 @@ h2 {
   color: #333;
 }
 
+/* Scholarships sub-list (no cards) */
 .scholarships-list {
   list-style: disc;
   margin: 0.5rem 0 0 1.5rem;
   padding: 0;
   color: #555;
+}
+
+.scholarships-list li {
+  margin-bottom: 0.3rem;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* ============ */
@@ -103,24 +118,32 @@ h2 {
 
 .mySwiper {
   padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .swiper-slide {
   width: 300px;
   text-align: center;
+  transition: opacity 0.3s ease;
   margin: 0 auto;
 }
 
 .swiper-slide img {
   width: 100%;
+  height: auto;
   max-height: 450px;
   object-fit: cover;
   border-radius: 4px;
 }
 
+/* Grey out non-active slides */
 .swiper-slide-prev,
 .swiper-slide-next {
   opacity: 0.5;
+}
+
+.swiper-slide-active {
+  opacity: 1;
 }
 
 figcaption {
@@ -129,6 +152,7 @@ figcaption {
   color: #555;
 }
 
+/* Hide arrows until hover */
 .swiper-button-prev,
 .swiper-button-next {
   opacity: 0;
@@ -162,11 +186,22 @@ figcaption {
   }
 }
 
+.portfolio-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
 .portfolio-grid img {
   width: 100%;
+  height: auto;
   max-height: 400px;
   object-fit: cover;
   border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.portfolio-grid img:hover {
+  transform: scale(1.02);
 }
 
 /* Footer */
