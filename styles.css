@@ -46,7 +46,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* Awards & exhibitions */
+/* Awards & Shows */
 .awards-list {
   list-style: none;
   padding: 0;
@@ -56,7 +56,7 @@ h2 {
   gap: 1.5rem;
 }
 
-.awards-list li {
+.awards-list > li {
   background: #fff;
   padding: 1rem 1.5rem;
   border-radius: 8px;
@@ -64,7 +64,7 @@ h2 {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.awards-list li:hover {
+.awards-list > li:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
@@ -75,20 +75,20 @@ h2 {
   color: #333;
 }
 
+/* Scholarships sub-list (no cards) */
 .scholarships-list {
   list-style: disc;
-  margin: 0.5rem 0 0 1.5rem; /* Indent sub-list */
+  margin: 0.5rem 0 0 1.5rem;
   padding: 0;
   color: #555;
 }
 
 .scholarships-list li {
   margin-bottom: 0.3rem;
-  padding: 0;          /* remove card padding */
-  background: none;    /* remove card background */
-  border-radius: 0;    /* remove rounded corners */
-  box-shadow: none;    /* remove shadow */
-  color: #555;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* Swiper Styles */
