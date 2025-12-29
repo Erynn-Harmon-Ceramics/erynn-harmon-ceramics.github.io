@@ -21,8 +21,10 @@ fetch("images.json")
         <figcaption>${image.caption}</figcaption>
       `;
 
-      // Click to expand
+      // Click to expand (disabled on mobile)
       gridItem.addEventListener("click", () => {
+        if (window.innerWidth < 600) return; // disable on mobile
+
         const currentlyExpanded = portfolioGrid.querySelector(".expanded");
         if (currentlyExpanded && currentlyExpanded !== gridItem) {
           currentlyExpanded.classList.remove("expanded");
