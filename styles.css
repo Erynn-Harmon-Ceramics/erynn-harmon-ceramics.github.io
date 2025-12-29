@@ -12,9 +12,40 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
   padding: 3rem 1rem;
   background: #eee;
+}
+
+.splash-banner {
+  position: relative;
+  background-image: url('images/Splash Banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.splash-banner h1, .splash-banner p {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.splash-banner h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.splash-banner p {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 /* ===== Sticky Navbar ===== */
