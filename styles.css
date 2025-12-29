@@ -38,6 +38,13 @@ nav a {
   font-weight: 500;
 }
 
+/* ================================ */
+/* Anchor Offset for Sticky Navbar */
+/* ================================ */
+[id] {
+  scroll-margin-top: 80px;
+}
+
 main {
   max-width: 1000px;
   margin: auto;
