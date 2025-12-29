@@ -5,14 +5,9 @@
     "alt": "Basket bowl"
   },
   {
-    "file": "Blue flower earrings.jpg",
-    "caption": "Blue Flower Earrings",
-    "alt": "Blue flower earrings"
-  },
-  {
-    "file": "Orange bubble lidded pot.jpg",
-    "caption": "Orange Bubble Lidded Pot",
-    "alt": "Orange bubble lidded pot"
+    "file": "Texas mug.jpg",
+    "caption": "Texas Mug",
+    "alt": "Texas mug"
   },
   {
     "file": "Blueberry pot.avif",
@@ -20,39 +15,39 @@
     "alt": "Blueberry pot"
   },
   {
-    "file": "Citrus cups.jpg",
-    "caption": "Citrus Cups",
-    "alt": "Citrus cups"
-  },
-  {
-    "file": "Colander set.jpg",
-    "caption": "Colander Set",
-    "alt": "Colander set"
-  },
-  {
-    "file": "Fruit stamp magnets.avif",
-    "caption": "Fruit Stamp Magnets",
-    "alt": "Fruit stamp magnets"
-  },
-  {
-    "file": "Holiday mug set.webp",
-    "caption": "Holiday Mug Set",
-    "alt": "Holiday mug set"
-  },
-  {
-    "file": "Jewelry holder.jpg",
-    "caption": "Jewelry Holder",
-    "alt": "Jewelry holder"
-  },
-  {
-    "file": "Blueberry bowl.jpg",
-    "caption": "Blueberry Bowl",
-    "alt": "Blueberry bowl"
+    "file": "Orange bubble lidded pot.jpg",
+    "caption": "Orange Bubble Lidded Pot",
+    "alt": "Orange bubble lidded pot"
   },
   {
     "file": "Purple flower lidded pot.webp",
     "caption": "Purple Flower Lidded Pot",
     "alt": "Purple flower lidded pot"
+  },
+  {
+    "file": "Yellow vase.jpg",
+    "caption": "Yellow Vase",
+    "alt": "Yellow vase"
+  },
+  {
+    "file": "Dragon mug.jpg",
+    "caption": "Dragon Mug",
+    "alt": "Dragon mug"
+  },
+  {
+    "file": "Blue carved mug.jpg",
+    "caption": "Blue Carved Mug",
+    "alt": "Blue carved mug"
+  },
+  {
+    "file": "Citrus cups.jpg",
+    "caption": "Citrus Cups",
+    "alt": "Citrus cups"
+  },
+  {
+    "file": "Blue teapot.jpg",
+    "caption": "Blue Teapot",
+    "alt": "Blue teapot"
   },
   {
     "file": "Red flower bowl.jpg",
@@ -65,14 +60,19 @@
     "alt": "Black plant pot"
   },
   {
-    "file": "Blue carved mug.jpg",
-    "caption": "Blue Carved Mug",
-    "alt": "Blue carved mug"
+    "file": "Jewelry holder.jpg",
+    "caption": "Jewelry Holder",
+    "alt": "Jewelry holder"
   },
   {
-    "file": "Blue teapot.jpg",
-    "caption": "Blue Teapot",
-    "alt": "Blue teapot"
+    "file": "Fruit stamp magnets.avif",
+    "caption": "Fruit Stamp Magnets",
+    "alt": "Fruit stamp magnets"
+  },
+  {
+    "file": "Blueberry bowl.jpg",
+    "caption": "Blueberry Bowl",
+    "alt": "Blueberry bowl"
   },
   {
     "file": "Carved pot.jpg",
@@ -80,14 +80,9 @@
     "alt": "Carved pot"
   },
   {
-    "file": "Dragon mug.jpg",
-    "caption": "Dragon Mug",
-    "alt": "Dragon mug"
-  },
-  {
-    "file": "Green houses.jpg",
-    "caption": "Green Houses",
-    "alt": "Green houses"
+    "file": "Turquoise colanders.jpg",
+    "caption": "Turquoise Colanders",
+    "alt": "Turquoise colanders"
   },
   {
     "file": "Moon cycle set.jpg",
@@ -95,28 +90,33 @@
     "alt": "Moon cycle set"
   },
   {
+    "file": "Green houses.jpg",
+    "caption": "Green Houses",
+    "alt": "Green houses"
+  },
+  {
+    "file": "Colander set.jpg",
+    "caption": "Colander Set",
+    "alt": "Colander set"
+  },
+  {
+    "file": "Blue flower earrings.jpg",
+    "caption": "Blue Flower Earrings",
+    "alt": "Blue flower earrings"
+  },
+  {
+    "file": "Holiday mug set.webp",
+    "caption": "Holiday Mug Set",
+    "alt": "Holiday mug set"
+  },
+  {
     "file": "Sphere teapot.jpg",
     "caption": "Sphere Teapot",
     "alt": "Sphere teapot"
   },
   {
-    "file": "Texas mug.jpg",
-    "caption": "Texas Mug",
-    "alt": "Texas mug"
-  },
-  {
-    "file": "Turquoise colanders.jpg",
-    "caption": "Turquoise Colanders",
-    "alt": "Turquoise colanders"
-  },
-  {
     "file": "Yellow teapot.jpg",
     "caption": "Yellow Teapot",
     "alt": "Yellow teapot"
-  },
-  {
-    "file": "Yellow vase.jpg",
-    "caption": "Yellow Vase",
-    "alt": "Yellow vase"
   }
 ]
