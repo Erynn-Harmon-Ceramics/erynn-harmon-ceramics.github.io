@@ -222,6 +222,11 @@ figcaption {
   transform: scale(1.05);
 }
 
+.caption-details {
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
 /* Footer */
 footer {
   text-align: center;
