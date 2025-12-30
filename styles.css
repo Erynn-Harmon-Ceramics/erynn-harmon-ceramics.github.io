@@ -32,10 +32,13 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(225, 219, 212, .95);
+  background-color: rgba(79, 69, 44, .95)
+;
   padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 8px;
-  color: #4F452C;
+  color: rgba(225, 219, 212, 1);
 }
 
 .banner-content h1, .banner-content p {
