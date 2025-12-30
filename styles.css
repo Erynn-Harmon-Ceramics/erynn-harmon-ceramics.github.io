@@ -8,7 +8,7 @@ body {
   font-family: system-ui, sans-serif;
   line-height: 1.6;
   color: #222;
-  background: #E1DBD4; /* Changed to background color */
+  background: #F5EEE6; /* Changed to background color */
 }
 
 header {
@@ -32,10 +32,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(208, 194, 155, 0.5);
   padding: 20px;
   border-radius: 8px;
-  color: white;
+  color: #4F452C;
 }
 
 .banner-content h1, .banner-content p {
