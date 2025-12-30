@@ -32,7 +32,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(208, 194, 155, 0.8);
+  background-color: rgba(225, 219, 212, .95);
   padding: 20px;
   border-radius: 8px;
   color: #4F452C;
