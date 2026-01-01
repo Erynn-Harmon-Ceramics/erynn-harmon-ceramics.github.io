@@ -60,7 +60,7 @@ header {
 }
 
 .hyperlink:visited {
-  color: #000000;
+  color: #614927;
 }
 
 .hyperlink:hover {
@@ -140,7 +140,7 @@ h2 {
 }
 
 .awards-list > li {
-  background: #EAE1CF;
+  background: #E4D4B8;
   padding: 1rem 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
