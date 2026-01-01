@@ -55,6 +55,22 @@ header {
   font-weight: 300;
 }
 
+.hyperlink {
+  color: #0C4897;
+}
+
+.hyperlink:visited {
+  color: #000000;
+}
+
+.hyperlink:hover {
+  color: #6B7E99;
+}
+
+.hyperlink:active {
+  color: #001D54;
+}
+
 /* ===== Sticky Navbar ===== */
 nav {
   display: flex;
@@ -124,7 +140,7 @@ h2 {
 }
 
 .awards-list > li {
-  background: #fff;
+  background: #EAE1CF;
   padding: 1rem 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -139,7 +155,7 @@ h2 {
 .awards-list li strong {
   display: block;
   margin-bottom: 0.3rem;
-  color: #333;
+  color: #3A2E17;
 }
 
 .scholarships-list {
